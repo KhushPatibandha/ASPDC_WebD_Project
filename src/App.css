@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+  background-color: #213555;
+  font-family: 'Space Mono', monospace;
+}
+
+button {
+  border-radius: 50px;
+  outline: none;
+  background-color: #213555;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mainContainer {
+  max-width: 500px;
+  padding: 40px;
+  text-align: center;
+  background-color: #4F709C;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #D8C4B6;
+}
+
+.divider {
+  height: 20px;
+  background-color: #4F709C;
+  margin-bottom: 30px;
+  border-radius: 2px;
+}
+
+.adviceParagraph {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #F5EFE7;
+}
+
+/* .btn-container {
+  gayContent: calldoctor;
+  ghostWriterForCSS: Skar3Krow;
+  display: flex;
+  justify-content: center;
+} */
+
+.btn {
+  position: relative;
+  top: 1.7px;
+  background-color: #79E0EE;
+  color: #ffffff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  /* margin-top: 20px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  outline: none; /* Add this line to remove the rectangular outline */
+}
+
+.btn:hover {
+  background-color: #79E0EE;
+}
