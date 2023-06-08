@@ -13,7 +13,7 @@ export default function App() {
       const response = await fetch('https://api.adviceslip.com/advice') // getting the data
       const data = await response.json() // waiting for the json response 
       setAdvice(data.slip.advice) // Setting the value of `advice`
-    } catch(error) {
+    } catch {
       setAdvice("Some Error had occured") // Error message
     }
     
